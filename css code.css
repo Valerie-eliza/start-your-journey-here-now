@@ -1,33 +1,41 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 150px;
+body{
+    text-align: center;
+    background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
-h1 {
-  font-weight: lighter;
+h1{
+  color: #396;
+  font-weight: 100;
   font-size: 40px;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
+  margin: 40px 0px 20px;
 }
 
-.inputSection {
-  margin: 50px 0px 80px 0px;
-  width: 400px;
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
 }
 
-.inputs {
-  width: inherit;
-  display: flex;
-  flex-direction: column;
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
 }
 
-input {
-  margin-top: 10px;
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
 }
 
-.addOption {
-  margin-top: 10px;
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
 }
